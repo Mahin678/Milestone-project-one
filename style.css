@@ -19,8 +19,8 @@ header{
 }
 
 .header-wrapper{
-  padding-left: 6.5%;
-  padding-top: 6.5%;
+  padding-left: 6%;
+  padding-top: 6%;
 
   margin: 0 auto;
 
@@ -29,7 +29,7 @@ header{
     width: 30%;
     float: left;
     padding-left: 9rem;
-    padding-top: 7rem;
+    padding-top: 6rem;
 }
 .header-content h2{
     font-size: 30px;
@@ -81,6 +81,7 @@ header{
     float: left;
     text-align: left;
     padding-top: 5rem;
+    margin-left: -50px;
 }
 .header-img img{
     width: 100%;
@@ -113,7 +114,7 @@ header{
     }
     .biography-content h2{
         font-size: 30px;
-        font-weight: 700;
+        font-weight: 400;
     }
     .biography-content p{
         max-width: 650px;
@@ -158,6 +159,84 @@ header{
     }
     
 /*  biography section ended  */
+/* experience started */
+    .experience {
+        background-image: url("images/footer-bg.png");
+        background-position: left;
+        margin-left: 0px;
+        padding-left: 0px;
+        background-repeat: no-repeat;
+        padding-top: 6rem;
+        padding-bottom: 3rem;
+    }
+    .experience a{
+        text-decoration: none;
+    }
+    .experience ol li {
+        margin-bottom: 3px;
+    }
+    .experience-wrapper{
+        display: flex;
+
+    }
+    .experience h2{
+        font-size: 30px;
+        text-align: center;
+        color: black;
+        padding-bottom: 5rem;
+    }
+    .experience h2 span {
+        color: #FF2E80;
+    }
+    .experience, .dream p {
+        color: dimgray;
+        text-align: justify;
+    }
+    .full-stack {
+        width: 450px;
+        margin: 0 auto;
+        padding: 35px;
+        border-left: 7px solid;
+        border-image: linear-gradient(180deg, lightsalmon, tomato);
+        border-image-slice: 1;
+        transition: .3s;
+        border-radius: 5px;
+    }
+    .full-stack h1{
+        margin-bottom: 0rem;
+    }
+    .full-stack:hover {
+        box-shadow: 5px 10px 20px;
+        transition: .3s;
+    }
+    .baby-developer {
+        width: 450px;
+        margin: 0 auto;
+        padding: 35px;
+        border-left: 7px solid;
+        border-image: linear-gradient(180deg , blue , cyan);
+        border-image-slice: 1;
+        border-radius: 5px;
+    }
+    .baby-developer h1{
+        margin-bottom: 0rem;
+    }
+  
+    .baby-developer:hover {
+        box-shadow: 5px 10px 20px;
+        transition: .3s;
+
+    }
+    .title{
+        font-size:16px;
+        font-weight: bold;
+        color: dimgray;
+        margin-top: .5rem;
+    }
+    .nd-title{
+        font-size: 16px;
+    }
+/* experience ended */
 /* my latest work started */
 
     .my-latest-work {
@@ -175,6 +254,9 @@ header{
         font-size: 30px;
         font-weight: 700;
     }
+    .my-latest-work h1 span {
+        color: #FF2E80;
+    }
     .my-latest-work h1::after{
         content: "";
         width: 20px;
@@ -190,7 +272,10 @@ header{
         height: 13rem;
         margin: 0 auto;
         display: inline-block;
+        box-shadow: 5px 21px 51px rgba(33,33,33,.3); 
+        
     }
+
 /* my latest work ended */
 /* client-say  started */
 
@@ -205,13 +290,17 @@ header{
     .client-say h1 {
         font-size: 30px ;
         font-weight: 700;
+        margin-bottom: 5rem;
+    }
+    .client-say h1 span{
+        color: #FF2E80;
     }
 
     .name{
         font-size: 16px;
         font-weight: bold;
-        margin-top: 5rem;
         margin-bottom: 5px;
+        text-decoration: none;
     }
     .job-title {
          font-size: 14px;
